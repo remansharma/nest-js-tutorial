@@ -20,7 +20,17 @@ export const databaseProviders = [{
         default:
            config = databaseConfig.development;
         }
+        console.log(config);
+
+        // https://sequelize.org/docs/v6/other-topics/dialect-specific-things/
+
+
         const sequelize = new Sequelize(config);
+      //   sequelize.authenticate().then(() => {
+      //    console.log('Connection has been established successfully.');
+      // }).catch((error) => {
+      //    console.error('Unable to connect to the database: ', error);
+      // });
         sequelize.addModels([User]);
         await sequelize.sync();
         return sequelize;

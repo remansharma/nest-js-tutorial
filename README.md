@@ -1,3 +1,6 @@
+# sequelize
+https://sequelize.org/
+
 # nest-js-tutorial
 Trying NestJs with typescript 
 
@@ -10,10 +13,8 @@ https://www.youtube.com/watch?v=8_X0nSrzrCw
 # Fire
 https://www.youtube.com/watch?v=0M8AYU_hPas
 
-
 # NestJS Project Structure
 https://github.com/CatsMiaow/nestjs-project-structure
-
 
 # NestJS LinkedIn Tutorial (Project Structure)
 https://linkedin.com/pulse/nestjs-project-structure-architecture-demo-becerra-monsalve-m-c-s-3ngge
