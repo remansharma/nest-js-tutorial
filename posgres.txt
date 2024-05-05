@@ -19,7 +19,35 @@ To start postgresql@15 now and restart at login:
 Or, if you don't want/need a background service you can just run:
   LC_ALL="C" /opt/homebrew/opt/postgresql@15/bin/postgres -D /opt/homebrew/var/postgresql@15
 
+===> nestjs.com/microservices/kafka
+https://docs.nestjs.com/microservices/kafka
 
+===> Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours
+https://www.youtube.com/watch?v=8_X0nSrzrCw
+
+===> Nestjs Project Structure Architecture Demo
+https://linkedin.com/pulse/nestjs-project-structure-architecture-demo-becerra-monsalve-m-c-s-3nggea
+
+===> NestJS Project Strcture
+https://github.com/CatsMiaow/nestjs-project-structure
+
+===> Nest Blog API
+https://github.com/onwuvic/nest-blog-api
+
+===> Wuild Web Apis With Nestjs Beginners Guide
+https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/
+
+===> How To Use Sequelize With Node Js And Mysql
+https://www.digitalocean.com/community/tutorials/how-to-use-sequelize-with-node-js-and-mysql
+
+===> Dialect Specific Things
+https://sequelize.org/docs/v6/other-topics/dialect-specific-things/
+
+===> Setting up a Postgresql Database on Mac
+https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/
+
+===> Postgresql Cheat Sheet
+https://www.postgresqltutorial.com/postgresql-cheat-sheet/
 
 ===> command
 /opt/homebrew/opt/postgresql@15/bin/psql
