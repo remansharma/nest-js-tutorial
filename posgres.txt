@@ -46,11 +46,11 @@ https://sequelize.org/docs/v6/other-topics/dialect-specific-things/
 ===> Setting up a Postgresql Database on Mac
 https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/
 
-===> Postgresql Cheat Sheet
-https://www.postgresqltutorial.com/postgresql-cheat-sheet/
-
 ===> command
 /opt/homebrew/opt/postgresql@15/bin/psql
 
 ===> setup posgres first time
 ./psql postgres
+
+===> Postgresql Cheat Sheet
+https://www.postgresqltutorial.com/postgresql-cheat-sheet/

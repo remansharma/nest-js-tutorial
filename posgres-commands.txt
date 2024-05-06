@@ -1,0 +1,33 @@
+===> command: access posgres database
+./psql postgres
+
+===> command: Show all the databases
+\l
+
+===> command: Connect to a database
+\c database_name;
+
+===> command: List all schemas:
+\dn
+
+
+===> command: Lists all tables in a current database.
+\dt
+
+===> command: To quit the psql:
+\q
+
+===> command: Create a new database:
+CREATE DATABASE [IF NOT EXISTS] db_name;
+
+
+===> command: Delete a database permanently:
+DROP DATABASE [IF EXISTS] db_name;
+
+===> command: Create a new table or a temporary table
+CREATE [TEMP] TABLE [IF NOT EXISTS] table_name(
+   pk SERIAL PRIMARY KEY,
+   c1 type(size) NOT NULL,
+   c2 type(size) NULL,
+   ...
+);

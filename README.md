@@ -47,3 +47,5 @@ npm install bcrypt --save
 
 npm install @nestjs/jwt passport-jwt
 npm install @types/passport-jwt --save-dev
+
+npm install class-validator class-transformer --save
