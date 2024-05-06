@@ -49,3 +49,8 @@ npm install @nestjs/jwt passport-jwt
 npm install @types/passport-jwt --save-dev
 
 npm install class-validator class-transformer --save
+
+
+nest g module /modules/posts
+nest g service /modules/posts
+nest g co /modules/posts
