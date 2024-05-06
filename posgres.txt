@@ -34,7 +34,7 @@ https://github.com/CatsMiaow/nestjs-project-structure
 ===> Nest Blog API
 https://github.com/onwuvic/nest-blog-api
 
-===> Wuild Web Apis With Nestjs Beginners Guide
+===> Build Web Apis With Nestjs Beginners Guide
 https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/
 
 ===> How To Use Sequelize With Node Js And Mysql
