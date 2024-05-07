@@ -2,6 +2,7 @@ import { Sequelize } from 'sequelize-typescript';
 import { SEQUELIZE, DEVELOPMENT, TEST, PRODUCTION } from '../constants';
 import { databaseConfig } from './database.config';
 import { User } from '../../modules/users/user.entity';
+import { Post } from 'src/modules/posts/post.entity';
 
 export const databaseProviders = [{
     provide: SEQUELIZE,
@@ -31,7 +32,7 @@ export const databaseProviders = [{
       // }).catch((error) => {
       //    console.error('Unable to connect to the database: ', error);
       // });
-        sequelize.addModels([User]);
+        sequelize.addModels([User, Post]);
         await sequelize.sync();
         return sequelize;
     },
